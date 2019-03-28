@@ -33,6 +33,10 @@ body {
 	line-height: 1;
 }
 
+embed {
+	width: inherit;
+}
+
 ol, ul {
 	list-style: none;
 }
