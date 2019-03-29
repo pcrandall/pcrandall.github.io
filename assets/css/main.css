@@ -1803,6 +1803,9 @@ input, select, textarea {
 		ul li {
 			padding-left: 0.5em;
 		}
+		ul p {
+			text-align: left;
+		}
 
 	ol {
 		list-style: decimal;
@@ -2000,6 +2003,12 @@ input, select, textarea {
 					top: 50%;
 					left: 50%;
 					transform: translate(-50%, -50%);
+				}
+
+				.item header h4 {
+					font-size: 1.5em;
+					background: #ecf1f1;
+					width: 100%;
 				}
 					
 				
