@@ -117,7 +117,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
-		line-height: 1.5em;
+		line-height: 1.75em;
 	}
 
 	h3 {
@@ -2006,9 +2006,11 @@ input, select, textarea {
 				}
 
 				.item header h4 {
-					font-size: 1.5em;
+					box-shadow: 0 0 0 0;
 					background: #ecf1f1;
+					font-size: 1.75em;
 					width: 100%;
+					margin-bottom: 1em;
 				}
 					
 				
