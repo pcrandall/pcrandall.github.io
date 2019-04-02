@@ -2176,6 +2176,53 @@ input, select, textarea {
 					#nav ul li a.active span:before {
 						color: #e27689;
 					}
+	#Dwnld ul {
+			list-style: none;
+			padding-left: 0;
+			margin-bottom: 0;
+		}
+
+			#Dwnld ul li {
+				padding-left: 0;
+			}
+
+				#Dwnld ul li a {
+					display: block;
+					padding: 0.5em 1.5em 0.5em 1.5em;
+					color: rgba(255, 255, 255, 0.5);
+					text-decoration: none;
+					outline: 0;
+					border: 0;
+					-moz-transition: none;
+					-webkit-transition: none;
+					-ms-transition: none;
+					transition: none;
+				}
+
+					#Dwnld ul li a span {
+						position: relative;
+						display: block;
+						font-size: 0.8em;
+					}
+
+						#Dwnld ul li a span:before {
+							position: absolute;
+							left: 0;
+							color: #41484c;
+							text-align: center;
+							width: 1.25em;
+							line-height: 1.75em;
+						}
+
+					#Dwnld ul li a.active {
+						background: rgba(0, 0, 0, 0.15);
+						box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
+						color: #fff;
+					}
+
+						#Dwnld ul li a.active span:before {
+							color: #e27689;
+						}
 
 /* Footer */
 
@@ -2366,6 +2413,21 @@ input, select, textarea {
 						margin-left: -1.25em;
 						line-height: 2.25em;
 					}
+			#Dwnld ul li a {
+				font-size: 0.8em;
+				padding-top: 0.5em;
+				padding-bottom: 0.5em;
+			}
+
+				#Dwnld ul li a span {
+					padding-right: 2.25em;
+				}
+
+					#Dwnld ul li a span:before {
+						left: 100%;
+						margin-left: -1.25em;
+						line-height: 2.25em;
+					}
 
 		/* Footer */
 
@@ -2474,6 +2536,12 @@ input, select, textarea {
 			#nav ul li a {
 				padding: 0.5em 1.25em 0.5em 1.25em;
 			}
+	
+			#Dwnld ul li a {
+				padding: 0.5em 1.25em 0.5em 1.25em;
+			}
+
+
 
 			#headerToggle {
 				-moz-backface-visibility: hidden;
