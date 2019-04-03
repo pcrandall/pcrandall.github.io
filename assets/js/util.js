@@ -152,8 +152,9 @@
 							var $a = $(this),
 								href = $a.attr('href'),
 								target = $a.attr('target');
+								id = $a.attr('id');
 
-							if (!href || href == '#' || href == '' || href == '#' + id)
+							if (!href || href == '#' || href == '' || href == '#' + id || id == 'Dwnld')
 								return;
 
 							// Cancel original event.
