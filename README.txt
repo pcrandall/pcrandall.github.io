@@ -10,3 +10,5 @@ Use this color scheme:
 	VERMILLION #333A56
 	SUNSHINE #52658F
 	CLEAN #E8E8E8
+
+Start python server with "python server.py" in terminal. 
