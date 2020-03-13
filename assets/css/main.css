@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -1356,6 +1350,11 @@ br.clear {
 
 @media screen and (max-width: 960px) {
 
+	#mobile {
+		visibility: hidden;
+	}
+
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1600,6 +1599,11 @@ br.clear {
 }
 
 @media screen and (max-width: 736px) {
+
+	#mobile {
+		visibility: hidden;
+	}
+
 
 	.row {
 		display: flex;
@@ -2442,6 +2446,11 @@ button:active,
 
 	/* Basic */
 
+	#mobile {
+		visibility: hidden;
+	}
+
+
 	body,
 	input,
 	textarea,
@@ -2475,6 +2484,11 @@ button:active,
 
 	/* Main */
 
+	#mobile {
+		visibility: hidden;
+	}
+
+
 	#main>section {
 		padding: 3em 0;
 	}
@@ -2490,6 +2504,11 @@ button:active,
 @media screen and (min-width: 961px) and (max-width: 1320px) {
 
 	/* Basic */
+
+	#mobile {
+		visibility: hidden;
+	}
+
 
 	body,
 	input,
@@ -2580,6 +2599,11 @@ button:active,
 @media screen and (max-width: 960px) {
 
 	/* Basic */
+
+	#mobile {
+		visibility: hidden;
+	}
+
 
 	html,
 	body {
@@ -2673,8 +2697,6 @@ button:active,
 	#Dwnld ul li a {
 		padding: 0.5em 1.25em 0.5em 1.25em;
 	}
-
-
 
 	#headerToggle {
 		-moz-backface-visibility: hidden;
@@ -2800,6 +2822,10 @@ button:active,
 
 	.container {
 		padding: 0 15px 0 15px;
+	}
+
+	#mobile {
+		visibility: visible;
 	}
 
 	/* List */
