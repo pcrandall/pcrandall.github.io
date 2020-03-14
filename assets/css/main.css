@@ -1350,11 +1350,6 @@ br.clear {
 
 @media screen and (max-width: 960px) {
 
-	#mobile {
-		visibility: hidden;
-	}
-
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1599,11 +1594,6 @@ br.clear {
 }
 
 @media screen and (max-width: 736px) {
-
-	#mobile {
-		visibility: hidden;
-	}
-
 
 	.row {
 		display: flex;
@@ -2446,11 +2436,6 @@ button:active,
 
 	/* Basic */
 
-	#mobile {
-		visibility: hidden;
-	}
-
-
 	body,
 	input,
 	textarea,
@@ -2601,7 +2586,7 @@ button:active,
 	/* Basic */
 
 	#mobile {
-		visibility: hidden;
+		visibility: visible;
 	}
 
 
